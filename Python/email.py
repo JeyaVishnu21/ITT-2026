@@ -1,3 +1,4 @@
+#This program checks whether the given email address is valid or not
 def valid(email):
     if len(email) < 5 or "@" not in email or "." not in email:
         return False
